@@ -1,0 +1,14 @@
+#enquiry { margin:0; color:#4e5b52; }
+#enquiry label { display:block; font-size:13px; font-weight:600; margin-bottom:19px; }
+#enquiry .form-row { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+#enquiry input, #enquiry textarea { box-sizing:border-box; display:block; width:100%; height:auto; margin-top:8px; border:1px solid #d5ddd7; border-radius:2px; background:#fff; padding:13px; color:#35413a; font-family:inherit;font-size:14px;font-weight:400;line-height:1.65; }
+#enquiry textarea { resize:vertical; min-height:150px; }
+#enquiry input:focus, #enquiry textarea:focus { outline:2px solid #59b775; outline-offset:1px; }
+#enquiry .form-note { font-size:12px; font-weight:400; margin-bottom:18px; }
+#enquiry button { cursor:pointer; background:#59b775; color:#fff; border:0; border-radius:3px; padding:12px 24px; min-height:48px; font-size:13px; font-weight:700; }
+#enquiry button:hover { background:#44995e; }
+#enquiry-result { margin-top:22px; overflow-wrap:anywhere; }
+#enquiry-result:empty { margin:0; }
+#enquiry-result p { font-size:13px; }
+#enquiry-result a { color:#36884f; font-weight:700; }
+@media (max-width:480px) { #enquiry .form-row { grid-template-columns:1fr; gap:0; } }

@@ -1,0 +1,13 @@
+.static-hero-fallback { background: linear-gradient(120deg, #163d32, #427d60) !important; }
+.static-hero-fallback .mobile_video_image { background: transparent !important; }
+.static-archive article, #static-search-results article { margin: 0 0 28px; padding-bottom: 22px; border-bottom: 1px solid #e7e7e7; }
+#static-search-results { margin-top: 32px; }
+#static-query { padding: 12px; max-width: 100%; margin: 12px; }
+#static-mobile-navigation { display: none; }
+@media (max-width: 800px) {
+  #static-mobile-navigation:not([hidden]) { display: block; background: #fff; border-top: 1px solid #e7e7e7; padding: 12px 24px; }
+  #static-mobile-navigation ul { display: block; list-style: none; margin: 0; padding: 0; }
+  #static-mobile-navigation li { display: block; }
+  #static-mobile-navigation a { display: block; padding: 10px 0; color: #333; }
+  #static-mobile-navigation ul ul { margin-left: 18px; border-left: 2px solid #e7e7e7; padding-left: 14px; }
+}
